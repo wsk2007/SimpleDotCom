@@ -9,8 +9,9 @@ public class SimpleDotCom {
 	}
 	
 	public String checkYourself(String stringGuess) {
+		int guess = 0;
 		try {
-			int guess = Integer.parseInt(stringGuess);
+			guess = Integer.parseInt(stringGuess);
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
