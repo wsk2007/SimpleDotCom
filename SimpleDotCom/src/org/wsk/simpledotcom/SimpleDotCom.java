@@ -14,6 +14,7 @@ public class SimpleDotCom {
 			guess = Integer.parseInt(stringGuess);
 		}catch(Exception e) {
 			e.printStackTrace();
+			guess = (int) (Math.random() * 5);
 		}
 		String result = "miss";
 		for (int cell : locationCells) {
