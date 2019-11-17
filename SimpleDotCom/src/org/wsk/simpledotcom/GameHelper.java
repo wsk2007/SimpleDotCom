@@ -4,7 +4,7 @@ public class GameHelper {
 
 	public String getUserInput(String prompt) {
 		String inputLine = null;
-		System.out.println(prompt + "   ");
+		System.out.print(prompt + "   ");
 		try {
 			BufferedReader is = new BufferedReader(new InputStreamReader(System.in));
 			inputLine = is.readLine();
